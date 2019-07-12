@@ -1,0 +1,149 @@
+{
+  "main": {
+    "name":"David McCracken",
+    "occupation":"Software Engineer",
+    "description":"I began my master's degree in Software Engineering in 2016 at Arizona State University. Since then, I have had the privilege to work on various personal projects as well as intern for companies in Arizona. I developed an automation tool for Bair Group Real Estate that parsed the MLS for houses based off agents’ specifications. Unlike manual searches by agents, this automated program produced results, as efficiency went up from 30% to 90%. After this experience, I realized how critical code is when bringing value to a company. Recently, I participated in an internship at REPAY, an electronic payment service, where I created business rules that obfuscated sensitive data based on the clients’ needs ",
+    "image":"profilepic.jpg",
+    "bio":"I'm a huge gamer with various interest in League of Legends, Starcraft 2, Auto chess, etc... The next milestone in my career would be advancing towards game development. It would be a dream to create something that brought so much joy throughout my life. My other passions include cooking, and dogs",
+    "contactmessage":"Currently pursuing projects and employment. Please feel free to contact me here!",
+    "email": "dav2113379@gmail.com",
+    "phone": "602-690-9416",
+    "address":{
+      "street":"",
+      "city":"Phoenix",
+      "state":"AZ",
+      "zip": "85033"
+    },
+    "website": "http://www.davidcmccracken.com",
+    "resumedownload":"https://l.facebook.com/l.php?u=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F15ODGG3ngvTLkpOlneo6Fy5JE_dynmKHi%2Fview%3Ffbclid%3DIwAR1cyWjCim_6qqay76J7l5AcgTVpp5jLjgW-hkXB_PaTBt4t0F1eFqquvGI&h=AT2HVCqG8IJ4eglvk2xAzSdXrz-dn2RqFPWTjXL942aLBNNKyJYt1BvCumCIfMqIW1Jc0oXADLUQfcungBwoF3urxg7QC41DzhzoqFFQwX_Wft1dAqCkZCUbv5EnEDQ5_nB7Pz-4",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"http://facebook.com/davidcmccracken",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"https://twitter.com/TwoKDavey",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"linkedin",
+        "url":"www.linkedin.com/in/davidcmccracken",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"https://www.instagram.com/_davidmccracken/",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/DavidMcCracken",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+    "education":[
+      {
+        "school":"Arizona State University",
+        "degree":"MS- Software Engineering",
+        "graduated":"December 2019",
+        "description":""
+      },
+      {
+        "school":"Northern Arizona University",
+        "degree":"BA- Psychology",
+        "graduated":"December 2015",
+        "description":""
+      }
+    ],
+    "work":[
+      {
+        "company":"Independent",
+        "title":"Game Developer",
+        "years":"May 2019 - Present",
+        "description":""
+      },
+      {
+        "company":"REPAY - Realtime Electronic Payments",
+        "title":"Full-stack Developer Intern",
+        "years":"June 2018 - August 2018",
+        "description":""
+      },
+      {
+        "company":"Bair Group Real Estate",
+        "title":"Contractor",
+        "years":"January 2011 - November 2014",
+        "description":""
+      }
+    ],
+    "skills":[
+      {
+        "name":"C++",
+        "level":"70%"
+      },
+      {
+        "name":"C#",
+        "level":"90%"
+      },
+      {
+        "name":"Java",
+        "level":"90%"
+      },
+      {
+        "name":"Python",
+        "level":"90%"
+      },
+      {
+        "name":"Git",
+        "level":"70%"
+      },
+      {
+        "name":"Docker",
+        "level":"80%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"60%"
+      },
+      {
+        "name":"CSS",
+        "level":"50%"
+      }
+      
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Ammoth",
+        "category":"My current game being developed in Unity",
+        "image":"Ammoth.png",
+        "url":"https://github.com/DavidMcCracken/Ammoth"
+      },
+      {
+        "title":"Docker Single Container Implementation",
+        "category":"Using Travis-CI to AWS with Docker",
+        "image":"DockerSingleContainer.png",
+        "url":"https://github.com/DavidMcCracken/docker-react"
+      },
+      {
+        "title":"Docker Multi Container Implementation",
+        "category":"Using Travis-CI to DockerHub then pushed to AWS",
+        "image":"DockerSingleContainer.png",
+        "url":"https://github.com/DavidMcCracken/multi-docker"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"... created one of the most impactful and flexible features for the company with his data obfuscation implementation.",
+        "user":"Project Manager REPAY - Aaron C."
+      }
+    ]
+  }
+}

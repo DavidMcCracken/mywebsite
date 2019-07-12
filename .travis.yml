@@ -1,0 +1,17 @@
+sudo: required
+services:
+ - docker
+before_install:
+ - docker build -t twokdavey/mywebsite -f Dockerfile.dev .
+
+script:
+ - docker run -e CI=true twokdavey/mywebsite npm run test
+
+deploy:
+  provider: s3
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key:
+    secure: "$AWS_SECRET_KEY"
+  bucket: "www.davidcmccracken.com"
+  skip_cleanup: true
+  region: eu-west-2
