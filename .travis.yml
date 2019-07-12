@@ -13,6 +13,6 @@ deploy:
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key:
     secure: "$AWS_SECRET_KEY"
-  bucket: "http://www.davidcmccracken.com.s3-website-us-west-2.amazonaws.com"
+  bucket: www.davidcmccracken.com
   skip_cleanup: true
   region: eu-west-2
